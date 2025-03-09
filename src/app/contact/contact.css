@@ -1,0 +1,86 @@
+
+.contact-parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+
+}
+.contact.child{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    gap: 1rem;
+
+}
+.contact-button{
+    display: flex;
+    flex-direction:row;
+    gap: 1rem;
+    align-items: center;
+    height:70px ;
+    width: 300px;
+    background-color: var(--backgroundwords);  
+    border-radius: var(--border-radius);
+    
+
+}
+.linkedin-button {
+    display: inline-flex;
+    align-items: left;
+    justify-content: center;
+    width: 60px; /* Adjust size */
+    height: 60px;
+    background-color: var(--backgroundwords);  
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.linkedin-button:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0px 4px 10px rgba(0, 119, 181, 0.5);
+}
+
+.linkedin-pic {
+    width: 60%; /* Ensures the icon fits well inside */
+    height: auto;
+}
+
+.gmail-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Adjust size */
+    height: 60px;
+    background-color: var(--backgroundwords);  
+    border-radius: var(--border-radius);
+    border-color: var(--backgroundwords);
+    box-shadow:none;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+
+.gmail-pic {
+    align-items: center;
+    margin: .5rem;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+}
+
+.gmail-button:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0px 4px 10px rgba(230, 0, 0, 0.5);
+}
+
+
+

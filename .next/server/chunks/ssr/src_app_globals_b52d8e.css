@@ -1,0 +1,141 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --primary: #1c5726;
+  --primary-content: #95dda1;
+  --primary-dark: #103015;
+  --primary-light: #287e37;
+  --backgroundwords: #fff;
+  --background: #eff0ef;
+  --foreground: #fbfbfb;
+  --border: #dee1de;
+  --copy: #242825;
+  --copy-light: #616b63;
+  --copy-lighter: #879288;
+  --success: #1c571c;
+  --warning: #57571c;
+  --error: #571c1c;
+  --success-content: #95dd95;
+  --warning-content: #dddd95;
+  --error-content: #dd9595;
+  --border-radius: .375rem;
+  --box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --backgroundwords: #13170e;
+    --background: #181b19;
+    --foreground: #242825;
+    --border: #3d433e;
+    --copy: #fbfbfb;
+    --copy-light: #d7dbd7;
+    --copy-lighter: #a1aaa3;
+    --success: #1c571c;
+    --warning: #57571c;
+    --error: #571c1c;
+    --success-content: #95dd95;
+    --warning-content: #dddd95;
+    --error-content: #dd9595;
+    --box-shadow: 0 0 10px var(--foreground);
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: var(--copy);
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0;
+  color: var(--copy-light);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: var(--copy-light);
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 0;
+  color: var(--copy-light);
+}
+
+p {
+  font-size: 1rem;
+  color: var(--copy-lighter);
+  margin: 0;
+}
+
+hr {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: var(--foreground);
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: var(--foreground);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: .5rem;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}
+
+.page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  padding-top: 90px;
+  min-height: 100vh;
+  align-self: center;
+  height: fit-content;
+  max-width: 1000px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.page-line {
+  width: 100%;
+}
+
+/*# sourceMappingURL=src_app_globals_b52d8e.css.map*/

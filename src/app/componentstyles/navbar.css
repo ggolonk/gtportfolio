@@ -1,0 +1,50 @@
+/* Container for the entire navbar */
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 25px;
+    background-color: var(--foreground);
+    box-shadow: var(--box-shadow);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Shared styling for child elements */
+  .navbar-child {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-child button {
+    width: 96px;
+    padding: 10px;
+    background: var(--foreground);
+  }
+   
+  /* Style for the logo image */
+  .logo {
+    border: 1px solid var(--border);  /* Apply border to the image */
+    border-radius: var(--border-radius);
+    padding: 1rem, 0, 1rem,0;
+    width: 50px;
+  }
+  
+  /* Container for the nav links */
+  .links-container {
+    gap: 25px;
+  }
+  .links-container p {
+   font-size: 14px;
+  }
+  
+  /* Responsive behavior */
+  @media screen and (max-width: 600px) {
+    .links-container {
+      display: none;
+    }
+  }
+  
