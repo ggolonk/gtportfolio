@@ -61,7 +61,7 @@
       transition: max-height 0.3s ease-in-out;
     }
     .links-container:hover {
-      max-height: 210px; 
+      max-height: 225px; 
   }
 
   .navbar-link {
