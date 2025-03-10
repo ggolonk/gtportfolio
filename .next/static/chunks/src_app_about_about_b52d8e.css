@@ -60,7 +60,7 @@
   background-color: var(--border);
 }
 
-@media (width <= 600px) {
+@media (width <= 200px) {
   .about-parent {
     flex-direction: column;
     align-items: center;
