@@ -52,7 +52,7 @@
       width: 110px;
       background: var(--foreground);
       border: 1px solid var(--border);
-      gap: 3.5px;
+      gap: 2px;
       padding: 2px;
       border-radius: var(--border-radius);
       box-shadow: var(--box-shadow);
