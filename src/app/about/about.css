@@ -65,7 +65,7 @@
   }
 
 /* Responsive Design */
-@media (max-width: 200px) {
+@media (max-width: 400px) {
     .about-parent {
         flex-direction: column;
         align-items: center;
