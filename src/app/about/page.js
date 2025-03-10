@@ -29,14 +29,14 @@ export default function About() {
             </p>
           </div>
           <div className="about-child">
-            <img src={"meND.jpg"} width={300} height={500} />
+            <img src={"meND.png"} width={300} height={500} />
 
           </div>
         </div>
         <hr className="about-line" />
         <div className="about-parent">
           <div className="about-child">
-            <img src={"fam.jpg"} width={500} height={200} />
+            <img src={"Fam.jpg"} width={500} height={200} />
 
           </div>
           <div className="about-child">
@@ -98,7 +98,7 @@ export default function About() {
           <img src={"hockey1.jpg"} className="gallery-photo" />
           <img src={"golf.jpg"} className="gallery-photo" />
           <img src={"surf.JPG"} className="gallery-photo" />
-          <img src={"BARC.JPG"} className="gallery-photo" />
+          <img src={"barc.png"} className="gallery-photo" />
           <img src={"gracegame.jpg"} className="gallery-photo" />
           <img src={"hike4.jpg"} className="gallery-photo" />
           <img src={"Grace.jpg"} className="gallery-photo" />
