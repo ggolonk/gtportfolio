@@ -63,7 +63,7 @@
   }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .about-parent {
         flex-direction: column;
         align-items: center;
@@ -80,7 +80,7 @@
 }
 
  /* Responsive behavior */
- @media screen and (max-width: 650px) {
+ @media screen and (max-width: 400px) {
     .about-photo-grid {
         display: none;
     }
