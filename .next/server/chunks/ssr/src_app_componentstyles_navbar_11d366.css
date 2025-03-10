@@ -46,20 +46,20 @@
     position: absolute;
     top: 5px;
     right: 25px;
-    width: 100px;
+    width: 110px;
     background: var(--foreground);
     border: 1px solid var(--border);
-    gap: 1px;
+    gap: 2px;
     padding: 2px;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
     overflow: hidden;
-    max-height: 43.5px;
+    max-height: 45.5px;
     transition: max-height .3s ease-in-out;
   }
 
   .links-container:hover {
-    max-height: 200px;
+    max-height: 225px;
   }
 
   .navbar-link {
@@ -67,14 +67,6 @@
   }
 
   .navbar-link:first-child {
-    display: block;
-  }
-
-  .links-container:hover {
-    max-height: 200px;
-  }
-
-  .links-container:hover .navbar-link {
     display: block;
   }
 }
