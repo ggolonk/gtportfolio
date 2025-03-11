@@ -140,14 +140,10 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     .project-parent {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
-
-    .project-child {
-        max-width: 100%; 
-        text-align: center; 
-}
 }
