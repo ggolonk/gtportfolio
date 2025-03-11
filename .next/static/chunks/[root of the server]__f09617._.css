@@ -285,6 +285,7 @@ button {
     top: 5px;
     right: 25px;
     width: 110px;
+    z-index: 100;
     background: var(--foreground);
     border: 1px solid var(--border);
     gap: 4px;
