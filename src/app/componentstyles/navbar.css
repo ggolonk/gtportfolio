@@ -38,28 +38,23 @@
     gap: 1px;
   }
   .nav-line1 {
+    display: none;
     width: 50%;
     margin-top: .75rem;
     margin-bottom: 0rem;
    }
    .nav-line2 {
+    display: none;
     width: 75%;
     margin-top: 0rem;
     margin-bottom: 0rem;
    }
    .nav-line3 {
+    display: none;
     width: 50%;
     margin-top: 0rem;
     margin-bottom: .75rem;
    }
-   hr {
-    display: none; 
-  }
-
-
-
-
-
 
   .links-container p {
    font-size: 16px;
@@ -95,7 +90,13 @@
 .navbar-link:first-child {
     display: block; 
 }
-hr {
+.nav-line1 {
+  display: block; 
+}
+.nav-line2 {
+  display: block; 
+}
+.nav-line3 {
   display: block; 
 }
 

@@ -253,25 +253,24 @@ button {
 }
 
 .nav-line1 {
+  display: none;
   width: 50%;
   margin-top: .75rem;
   margin-bottom: 0;
 }
 
 .nav-line2 {
+  display: none;
   width: 75%;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .nav-line3 {
+  display: none;
   width: 50%;
   margin-top: 0;
   margin-bottom: .75rem;
-}
-
-hr {
-  display: none;
 }
 
 .links-container p {
@@ -309,7 +308,15 @@ hr {
     display: block;
   }
 
-  hr {
+  .nav-line1 {
+    display: block;
+  }
+
+  .nav-line2 {
+    display: block;
+  }
+
+  .nav-line3 {
     display: block;
   }
 }
