@@ -1,4 +1,8 @@
 /* [project]/src/app/projects/projects.css [app-client] (css) */
+.page {
+  z-index: 1;
+}
+
 .projects {
   margin-top: 25px;
   display: flex;
@@ -129,7 +133,7 @@
   box-shadow: var(--copy-lighter);
 }
 
-@media (width <= 650px) {
+@media (width <= 800px) {
   .project-parent {
     display: flex;
     flex-direction: column;

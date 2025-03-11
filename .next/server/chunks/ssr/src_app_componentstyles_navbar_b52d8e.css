@@ -1,6 +1,6 @@
 /* [project]/src/app/componentstyles/navbar.css [app-client] (css) */
 .navbar-container {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -60,15 +60,14 @@
   font-size: 16px;
 }
 
-@media screen and (width <= 600px) {
+@media screen and (width <= 800px) {
   .links-container {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 5px;
     right: 25px;
-    width: 110px;
-    z-index: 100;
+    width: 125px;
     background: var(--foreground);
     border: 1px solid var(--border);
     gap: 4px;
@@ -82,7 +81,6 @@
 
   .links-container:hover {
     max-height: 225px;
-    z-index: 100;
   }
 
   .navbar-link {
