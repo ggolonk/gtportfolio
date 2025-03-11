@@ -53,6 +53,10 @@
   margin-bottom: .75rem;
 }
 
+hr {
+  display: none;
+}
+
 .links-container p {
   font-size: 16px;
 }
@@ -85,6 +89,10 @@
   }
 
   .navbar-link:first-child {
+    display: block;
+  }
+
+  hr {
     display: block;
   }
 }

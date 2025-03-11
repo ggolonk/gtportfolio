@@ -52,7 +52,9 @@
     margin-top: 0rem;
     margin-bottom: .75rem;
    }
-
+   hr {
+    display: none; 
+  }
 
 
 
@@ -92,6 +94,9 @@
 
 .navbar-link:first-child {
     display: block; 
+}
+hr {
+  display: block; 
 }
 
   }
