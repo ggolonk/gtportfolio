@@ -35,6 +35,12 @@ export default function NavBar() {
         </Link>
       </div>
       <div className="navbar-child links-container">
+        
+          <hr className='nav-line1'></hr>
+          <hr className='nav-line2'></hr>
+          <hr className='nav-line3'></hr>
+          
+        
         {links.map((link) => (
           <Link key={`navbar-link-${link.href}`} href={link.href} passHref>
             <m.button

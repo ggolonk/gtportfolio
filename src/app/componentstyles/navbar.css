@@ -35,14 +35,36 @@
   
   /* Container for the nav links */
   .links-container {
-    gap: 25px;
+    gap: 1px;
   }
+  .nav-line1 {
+    width: 50%;
+    margin-top: .75rem;
+    margin-bottom: 0rem;
+   }
+   .nav-line2 {
+    width: 75%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+   }
+   .nav-line3 {
+    width: 50%;
+    margin-top: 0rem;
+    margin-bottom: .75rem;
+   }
+
+
+
+
+
+
+
   .links-container p {
    font-size: 16px;
   }
   
   /* Responsive behavior */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .links-container{
       display: flex;
       flex-direction: column;
@@ -52,12 +74,12 @@
       width: 110px;
       background: var(--foreground);
       border: 1px solid var(--border);
-      gap: 2px;
-      padding: 2px;
+      gap: 4px;
+      padding: .25rem;
       border-radius: var(--border-radius);
       box-shadow: var(--box-shadow);
       overflow: hidden;
-      max-height: 45.5px; 
+      max-height: 47px; 
       transition: max-height 0.3s ease-in-out;
     }
     .links-container:hover {
