@@ -299,6 +299,7 @@ button {
 
   .links-container:hover {
     max-height: 225px;
+    z-index: 100;
   }
 
   .navbar-link {
