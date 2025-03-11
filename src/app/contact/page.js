@@ -20,7 +20,7 @@ export default function Contact() {
         <div className="contact-parent">
           <div className="contact-child">
             <p>Feel free to contact me using any of the following:</p>
-
+          
           </div>
           <div className="contact-child">
             <div className="contact-button">

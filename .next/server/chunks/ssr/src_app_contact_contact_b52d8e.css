@@ -79,4 +79,14 @@
   box-shadow: 0 4px 10px #e6000080;
 }
 
+@media screen and (width <= 60px) {
+  .contact-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+  }
+}
+
 /*# sourceMappingURL=src_app_contact_contact_b52d8e.css.map*/
