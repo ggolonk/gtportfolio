@@ -36,7 +36,7 @@ export default function NavBar() {
       </div>
       <div className="navbar-child links-container">
         {links.map((link) => (
-          <Link key={`navbar-link-${link.href}`} href={link.href} passHref className='nav-link'>
+          <Link key={`navbar-link-${link.href}`} href={link.href} passHref>
             <m.button
               variants={buttonVariants}
               initial="initial"
