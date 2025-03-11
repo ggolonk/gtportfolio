@@ -79,7 +79,7 @@
   box-shadow: 0 4px 10px #e6000080;
 }
 
-@media screen and (width <= 60px) {
+@media screen and (width <= 600px) {
   .contact-parent {
     display: flex;
     flex-direction: column;
