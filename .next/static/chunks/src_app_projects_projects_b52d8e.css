@@ -13,6 +13,9 @@
 .projects-header {
   display: flex;
   width: 100%;
+  margin-top: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
@@ -78,8 +81,7 @@
 .class-select-container {
   display: flex;
   flex-direction: column;
-  right: -15px;
-  top: -30px;
+  position: relative;
   z-index: 50;
   width: 300px;
   max-height: 200px;
