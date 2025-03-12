@@ -48,7 +48,6 @@ const classes = [
   "Gas Turbines & Propulsions",
   "Design Tools II",
 ];
-
 const courseDescriptions = [
   "Designed a radio-controlled airplane to complete a specific mission, focusing on aerodynamic optimization and structural integrity. Utilizing XFLR5 and SOLIDWORKS CFD software to analyze and refine the base model, ensuring efficient flight performance through iterative simulations.  Beyond design and analysis, my primary role in the team centered on budgeting, logistics, and construction. I used CAD models to guide the final build and directed teammates in assembling different sections, ensuring efficiency and accuracy. Additionally, I managed resource allocation to keep the project within financial constraints while sourcing materials that balanced cost, weight, and durability.The design phase emphasized performance predictions and preparation for testing, laying the groundwork for successful flight trials and final refinements.",
   "Conducted an independent study into shock wave structures and their interaction with reactive systems, under the guidance of Dr. Joseph M. Powers. The project primarily focused on investigating the dissociation of diatomic molecules within a viscous shock structure. By examining the behavior of molecular bonds under the extreme temperatures and pressures present in shock waves, the study aimed to provide deeper insights into the molecular-level dynamics at play, contributing to improved modeling and design in propulsion systems and detonation processes. This research analyzes the physical properties of a shock wave by utilizing the one dimensional Navier-Stokes equations.",
@@ -57,7 +56,6 @@ const courseDescriptions = [
   "Description for Gas Turbines & Propulsions: Focuses on turbine engine mechanics and performance.",
   "Description for Design Tools II: Covers computational methods used in aerodynamics design.",
 ];
-
 export default function Projects() {
   const [showProject, setShowProject] = useState(false);
   const [project, setProject] = useState(null);
