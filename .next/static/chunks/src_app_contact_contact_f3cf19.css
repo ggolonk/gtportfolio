@@ -24,61 +24,6 @@
   border-radius: var(--border-radius);
 }
 
-.linkedin-button {
-  display: inline-flex;
-  align-items: left;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-  background-color: var(--backgroundwords);
-  border-radius: var(--border-radius);
-  overflow: hidden;
-  transition: transform .2s ease-in-out, box-shadow .2s;
-  display: inline-flex;
-  align-items: center;
-  vertical-align: middle;
-}
-
-.linkedin-button:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 10px #0077b580;
-}
-
-.linkedin-pic {
-  width: 60%;
-  height: auto;
-}
-
-.gmail-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-  background-color: var(--backgroundwords);
-  border-radius: var(--border-radius);
-  border-color: var(--backgroundwords);
-  box-shadow: none;
-  overflow: hidden;
-  transition: transform .2s ease-in-out, box-shadow .2s;
-  display: inline-flex;
-  align-items: center;
-  vertical-align: middle;
-}
-
-.gmail-pic {
-  align-items: center;
-  margin: .5rem;
-  justify-content: center;
-  width: 60%;
-  height: auto;
-}
-
-.gmail-button:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 10px #e6000080;
-}
-
 @media screen and (width <= 600px) {
   .contact-parent {
     display: flex;

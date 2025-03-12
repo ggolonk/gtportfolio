@@ -23,6 +23,9 @@
     box-shadow: var(--box-shadow);
 }
 
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .page {

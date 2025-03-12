@@ -247,7 +247,14 @@ function Home() {
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.js",
                     lineNumber: 36,
-                    columnNumber: 13
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
+                    className: "page-line"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/page.js",
+                    lineNumber: 37,
+                    columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "home-header",
@@ -259,23 +266,23 @@ function Home() {
                                 width: 200
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.js",
-                                lineNumber: 39,
-                                columnNumber: 21
+                                lineNumber: 40,
+                                columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.js",
-                            lineNumber: 38,
-                            columnNumber: 17
+                            lineNumber: 39,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "home-header-child",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    children: "Hi there! My name is Gregory Golonka, and I am an aspiring aerospace engineer currently studying at the University of Notre Dame. My passion lies in solving complex engineering problems, from aerodynamics to propulsion systems, and I have hands-on experience in both research and design."
+                                    children: "Hi there! My name is Gregory, and I am an aspiring aerospace engineer currently studying at the University of Notre Dame. My passion lies in solving complex engineering problems, from aerodynamics to propulsion systems, and I have hands-on experience in both research and design."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/page.js",
-                                    lineNumber: 44,
-                                    columnNumber: 21
+                                    lineNumber: 45,
+                                    columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "h-h-child",
@@ -290,16 +297,16 @@ function Home() {
                                             },
                                             onClick: ()=>handleShowResume(),
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: "My Resume"
+                                                children: "View Resume"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 58,
-                                                columnNumber: 25
+                                                lineNumber: 59,
+                                                columnNumber: 33
                                             }, this)
                                         }, "resume-button-key", false, {
                                             fileName: "[project]/src/app/page.js",
-                                            lineNumber: 51,
-                                            columnNumber: 21
+                                            lineNumber: 52,
+                                            columnNumber: 29
                                         }, this),
                                         showResume && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$pdfViewer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             pdfUrl: `/GG_Resume.pdf`,
@@ -307,32 +314,66 @@ function Home() {
                                             setShowPDF: setShowResume
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.js",
-                                            lineNumber: 61,
-                                            columnNumber: 25
+                                            lineNumber: 62,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "https://www.linkedin.com/in/ggolonka/",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "linkedin-button",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: "linkedin.png",
+                                                className: "linkedin-pic"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/page.js",
+                                                lineNumber: 69,
+                                                columnNumber: 33
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/page.js",
+                                            lineNumber: 68,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "mailto:gtgolonka91602@gmail.com",
+                                            className: "gmail-button",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: "gmail.png",
+                                                className: "gmail-pic"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/page.js",
+                                                lineNumber: 72,
+                                                columnNumber: 33
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/page.js",
+                                            lineNumber: 71,
+                                            columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/page.js",
-                                    lineNumber: 50,
-                                    columnNumber: 21
+                                    lineNumber: 51,
+                                    columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/page.js",
-                            lineNumber: 43,
-                            columnNumber: 17
+                            lineNumber: 44,
+                            columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.js",
-                    lineNumber: 37,
-                    columnNumber: 13
+                    lineNumber: 38,
+                    columnNumber: 17
                 }, this)
             ]
         }, "home-page-key", true, {
             fileName: "[project]/src/app/page.js",
             lineNumber: 28,
-            columnNumber: 9
+            columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/page.js",

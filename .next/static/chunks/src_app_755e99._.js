@@ -305,19 +305,19 @@ const projects = [
 const pictures = [
     {
         id: "Senior Design",
-        src: "Galaxy.jpg"
+        src: "sdes.jpg"
     },
     {
         id: "Undergraduate Research",
-        src: "Galaxy.jpg"
+        src: "unres.JPG"
     },
     {
         id: "Personal Projects",
-        src: "Galaxy.jpg"
+        src: "html.jpg"
     },
     {
         id: "Experimental Aerodynamics",
-        src: "Galaxy.jpg"
+        src: "wind-tunnel.png"
     },
     {
         id: "Gas Turbines & Propulsions",
@@ -337,10 +337,10 @@ const classes = [
     "Design Tools II"
 ];
 const courseDescriptions = [
-    "Description for Senior Design: Focuses on conceptual and practical aspects of aircraft design.",
-    "Description for Undergraduate Research: This research focuses on the behavior of shock waves.",
-    "This is a description of why I wanted to create my website (First Personal Project) - learn something different and challenge myself.",
-    "Description for Experimental Aerodynamics: Involves wind tunnel testing and airfoil design.",
+    "Designed a radio-controlled airplane to complete a specific mission, focusing on aerodynamic optimization and structural integrity. Utilizing XFLR5 and SOLIDWORKS CFD software to analyze and refine the base model, ensuring efficient flight performance through iterative simulations.  Beyond design and analysis, my primary role in the team centered on budgeting, logistics, and construction. I used CAD models to guide the final build and directed teammates in assembling different sections, ensuring efficiency and accuracy. Additionally, I managed resource allocation to keep the project within financial constraints while sourcing materials that balanced cost, weight, and durability.The design phase emphasized performance predictions and preparation for testing, laying the groundwork for successful flight trials and final refinements.",
+    "Conducted an independent study into shock wave structures and their interaction with reactive systems, under the guidance of Dr. Joseph M. Powers. The project primarily focused on investigating the dissociation of diatomic molecules within a viscous shock structure. By examining the behavior of molecular bonds under the extreme temperatures and pressures present in shock waves, the study aimed to provide deeper insights into the molecular-level dynamics at play, contributing to improved modeling and design in propulsion systems and detonation processes. This research analyzes the physical properties of a shock wave by utilizing the one dimensional Navier-Stokes equations.",
+    "Welcome to my first personal project! This website was created using a combination of JavaScript, HTML, Next.js, and CSS. The development process was a great learning experience, where I honed my skills by utilizing a variety of online resources. I also received valuable guidance from my brother, an aspiring software engineer, who helped me navigate the challenges of building and refining the website. The picture attach is a snippet from the actual website code.",
+    "Gained hands-on experience with wind tunnel testing at Hessert Laboratories on the Notre Dame campus, working on a series of key aerodynamic experiments. These included calibrating pressure transducers to convert pressure measurements into digital data, analyzing circulation around a 2D airfoil, studying airfoil pressure distribution, and evaluating the lift and drag characteristics of a finite wing. Each experiment contributed to a deeper understanding of fluid dynamics, aerodynamic forces, and data analysis techniques, providing a comprehensive foundation in experimental aerodynamics.",
     "Description for Gas Turbines & Propulsions: Focuses on turbine engine mechanics and performance.",
     "Description for Design Tools II: Covers computational methods used in aerodynamics design."
 ];
@@ -408,7 +408,7 @@ function Projects() {
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.js",
                                 lineNumber: 103,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 ref: classSelectRef,
@@ -432,12 +432,12 @@ function Projects() {
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/page.js",
                                             lineNumber: 120,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/projects/page.js",
                                         lineNumber: 112,
-                                        columnNumber: 13
+                                        columnNumber: 15
                                     }, this),
                                     showSelectClass && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "dropdown",
@@ -453,31 +453,31 @@ function Projects() {
                                             }, `c-button-key-${index}`, false, {
                                                 fileName: "[project]/src/app/projects/page.js",
                                                 lineNumber: 126,
-                                                columnNumber: 19
+                                                columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/projects/page.js",
                                         lineNumber: 124,
-                                        columnNumber: 15
+                                        columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/projects/page.js",
                                 lineNumber: 104,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/projects/page.js",
                         lineNumber: 102,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                         className: "page-line"
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.js",
                         lineNumber: 144,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "project-main",
@@ -487,14 +487,14 @@ function Projects() {
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.js",
                                 lineNumber: 147,
-                                columnNumber: 47
+                                columnNumber: 49
                             }, this),
                             classCode !== "Course Selector" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                 className: "page-line"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.js",
                                 lineNumber: 148,
-                                columnNumber: 47
+                                columnNumber: 49
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "project-grid",
@@ -509,7 +509,7 @@ function Projects() {
                                         }, `p-button-key-${index}`, false, {
                                             fileName: "[project]/src/app/projects/page.js",
                                             lineNumber: 151,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "project-parent",
@@ -518,59 +518,80 @@ function Projects() {
                                                 className: "project-child",
                                                 children: [
                                                     classCode === "Course Selector" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        children: "Project Overview"
-                                                    }, void 0, false, {
+                                                        children: [
+                                                            "As an senior aerospace engineering student at the University of Notre Dame, my past projects show my interdiciplinary skills. My work spans from analyzing viscous shock waves with molecular dissociation to designing and optimizing RC aircraft. With hands-on experience in wind tunnel testing, computational simulations, and engineering design. I am interested in high-speed aerodynamics, propulsion, and mechanical systems.",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {}, void 0, false, {
+                                                                fileName: "[project]/src/app/projects/page.js",
+                                                                lineNumber: 170,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                                fileName: "[project]/src/app/projects/page.js",
+                                                                lineNumber: 171,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            "To discover more about each project, use the ",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
+                                                                children: "Course Selector"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/projects/page.js",
+                                                                lineNumber: 172,
+                                                                columnNumber: 66
+                                                            }, this),
+                                                            " menu to discover my most recent projects"
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "[project]/src/app/projects/page.js",
                                                         lineNumber: 164,
-                                                        columnNumber: 53
+                                                        columnNumber: 55
                                                     }, this),
                                                     selectedDescription && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: selectedDescription
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/projects/page.js",
-                                                        lineNumber: 165,
-                                                        columnNumber: 41
+                                                        lineNumber: 173,
+                                                        columnNumber: 43
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/projects/page.js",
                                                 lineNumber: 163,
-                                                columnNumber: 15
+                                                columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            classCode !== "Course Selector" && selectedPicture && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "project-child",
-                                                children: classCode !== "Course Selector" && selectedPicture && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: selectedPicture,
                                                     alt: classCode,
                                                     width: 400,
                                                     height: 300
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/projects/page.js",
-                                                    lineNumber: 169,
-                                                    columnNumber: 19
+                                                    lineNumber: 177,
+                                                    columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/projects/page.js",
-                                                lineNumber: 167,
-                                                columnNumber: 15
+                                                lineNumber: 176,
+                                                columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/projects/page.js",
                                         lineNumber: 162,
-                                        columnNumber: 13
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/projects/page.js",
                                 lineNumber: 149,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/projects/page.js",
                         lineNumber: 146,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, this),
                     showProject && project && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$pdfViewer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         pdfUrl: project.pdf,
@@ -578,19 +599,19 @@ function Projects() {
                         setShowPDF: setShowProject
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.js",
-                        lineNumber: 177,
-                        columnNumber: 11
+                        lineNumber: 185,
+                        columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/projects/page.js",
                 lineNumber: 101,
-                columnNumber: 7
+                columnNumber: 9
             }, this)
         }, "project-page-key", false, {
             fileName: "[project]/src/app/projects/page.js",
             lineNumber: 93,
-            columnNumber: 5
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/projects/page.js",
