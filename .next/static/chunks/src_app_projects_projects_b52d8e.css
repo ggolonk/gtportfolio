@@ -86,7 +86,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  z-index: 50;
+  z-index: 3;
   width: 300px;
   max-height: 200px;
   color: var(--copy-lighter);
@@ -97,7 +97,6 @@
 .selected-class {
   width: 100%;
   padding: 10px;
-  z-index: 50;
   background: var(--foreground);
   border: 1px solid var(--primary);
   border-radius: 5px;

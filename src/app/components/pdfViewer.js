@@ -62,7 +62,7 @@ export default function PDFViewer({ pdfUrl, showPDF, setShowPDF }) {
       onClick={handleClosePDF}
       animate={{
         opacity: showPDF ? 1 : 0,
-        zIndex: showPDF ? 10 : -1,
+        zIndex: showPDF ? 15 : -1,
       }}
       exit={{ opacity: 0, zIndex: -1 }}
     >

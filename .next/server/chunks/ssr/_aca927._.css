@@ -86,7 +86,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  z-index: 50;
+  z-index: 3;
   width: 300px;
   max-height: 200px;
   color: var(--copy-lighter);
@@ -97,7 +97,6 @@
 .selected-class {
   width: 100%;
   padding: 10px;
-  z-index: 50;
   background: var(--foreground);
   border: 1px solid var(--primary);
   border-radius: 5px;
@@ -562,7 +561,7 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   background: var(--foreground-blur);
-  z-index: 5;
+  z-index: 10;
   padding-top: 35px;
 }
 
@@ -573,9 +572,9 @@
   margin-bottom: 1rem;
   gap: 25px;
   position: fixed;
+  z-index: 15;
   top: 0;
   left: 0;
-  z-index: 11;
   padding: 1rem;
 }
 
