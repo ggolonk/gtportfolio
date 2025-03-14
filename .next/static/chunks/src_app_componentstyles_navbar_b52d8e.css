@@ -60,7 +60,7 @@
   font-size: 16px;
 }
 
-@media screen and (width <= 600px) {
+@media screen and (width <= 800px) {
   .links-container {
     display: flex;
     flex-direction: column;

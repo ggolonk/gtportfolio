@@ -62,7 +62,7 @@
   }
   
   /* Responsive behavior */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .links-container{
       display: flex;
       flex-direction: column;

@@ -1,4 +1,3 @@
-
 .projects {
     margin-top: 25px;
     display: flex;
@@ -26,9 +25,6 @@
 .project-grid{
     padding: 1rem;
 }
-
-
-
 
 .class-select-show {
     width: fit-content;
