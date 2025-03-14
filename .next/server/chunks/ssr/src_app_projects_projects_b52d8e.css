@@ -161,7 +161,7 @@
   height: auto;
 }
 
-@media (width <= 600px) {
+@media (width <= 800px) {
   .project-parent {
     display: flex;
     flex-direction: column;
