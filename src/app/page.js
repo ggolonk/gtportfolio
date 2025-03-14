@@ -82,16 +82,16 @@ export default function Home() {
                 </div>
                 <div className="about-photo-container">
     <div className="about-photo-grid">
-        <Image src="abroad.JPG" alt="Description" className="gallery-photo" priority/>
-        <Image src="dol2.png" alt="Description" className="gallery-photo" priority/>
-        <Image src="cin.png" alt="Description" className="gallery-photo" priority/>
-        <Image src="dol.png" alt="Description" className="gallery-photo" priority/>
-        <Image src="aca.png" alt="Description" className="gallery-photo" priority/>
-        <Image src="game.png" alt="Description" className="gallery-photo" priority/>
-        <Image src="game2.png" alt="Description" className="gallery-photo" priority/>
-        <Image src="eng.png" alt="Description" className="gallery-photo" priority/>
-        <Image src="pal.png" alt="Description" className="gallery-photo" priority/>
-        <Image src="ski.png" alt="Description" className="gallery-photo" priority/>
+        <img src="abroad.JPG" className="gallery-photo" />
+        <img src="dol2.png" className="gallery-photo" />
+        <img src="cin.png" className="gallery-photo" />
+        <img src="dol.png" className="gallery-photo" />
+        <img src="aca.png" className="gallery-photo" />
+        <img src="game.png" className="gallery-photo" />
+        <img src="game2.png" className="gallery-photo" />
+        <img src="eng.png" className="gallery-photo" />
+        <img src="pal.png" className="gallery-photo" />
+        <img src="ski.png" className="gallery-photo" />
     </div>
 </div>
             </m.div>
