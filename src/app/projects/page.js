@@ -184,7 +184,7 @@ export default function Projects() {
                 </div>
                 {classCode !== "Course Selector" && selectedPicture && (
                   <div className="project-child project-child-with-picture">
-                    <img src={selectedPicture} alt={classCode} width={400} height={300} />
+                    <img src={selectedPicture} alt={classCode} width={400} />
                     <p> {selectedCaption}</p>
                   </div>
                 )}

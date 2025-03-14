@@ -150,7 +150,7 @@
   
   .project-child img {
     width: 400px; /* Fixed size for the image */
-    height: 300px;
+    height: auto;
     object-fit: cover;
   }
   
