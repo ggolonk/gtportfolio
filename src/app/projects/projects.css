@@ -149,7 +149,7 @@
   }
   
   .project-child img {
-    width: 400px; 
+    width: clamp(300px,60vw,400px); 
     height: auto;
     border-radius: var(--border-radius);
     object-fit: cover;
@@ -163,7 +163,7 @@
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
-    gap: 20px; 
+    gap: 1rem; 
   }
   
   .project-child-with-picture {
@@ -179,10 +179,15 @@
 
 
 /* Responsive Design */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .project-parent {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
     }
+    .project-child {
+      width: 95%; 
+    }
+
 }

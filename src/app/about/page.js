@@ -46,11 +46,10 @@ export default function About() {
               My journey in engineering is driven by a strong foundation of hard work, perseverance,
               family, and friends that have shaped who I am both personally
               and professionally.</p>
-            <p><strong>Hard Work & Determination</strong> – I believe that success is built through
-              dedication and persistence. Whether it's struggling through a lengthly homework assignment, or the heavily lifting in a semester project.
-
-              , refining designs, or leading a team, I approach every challenge
-              with a problem-solving mindset and a relentless work ethic.</p>
+            <p><strong>Hard Work & Determination</strong> – I believe that success is achieved through dedication and perseverance. 
+            Whether overcoming complex homework assignments, contributing to the demanding efforts of a semester-long project, refining 
+            intricate designs, or leading a team, I approach every challenge with a problem-solving mindset and an unwavering commitment 
+            to excellence.</p>
             <p><strong>Family & Community </strong> – My family has always been a source of support
               and inspiration. Growing up, I learned the importance of commitment,
               teamwork, and integrity, values that I carry into my professional and
