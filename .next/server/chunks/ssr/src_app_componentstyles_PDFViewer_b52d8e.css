@@ -21,17 +21,17 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 1rem;
-  gap: 25px;
+  gap: 10px;
   position: fixed;
   z-index: 15;
   top: 0;
-  left: 0;
+  right: 15px;
   padding: 1rem;
 }
 
 .pdf-close {
   cursor: pointer;
-  font-size: 16px;
+  font-size: 24px;
   color: var(--copy);
   display: flex;
   align-items: center;
@@ -41,12 +41,12 @@
   border: 1px solid var(--border);
   box-shadow: var(--box-shadow);
   background: var(--background);
-  width: 50px;
+  width: 60px;
 }
 
 .pdf-download {
   cursor: pointer;
-  font-size: 16px;
+  font-size: 24px;
   color: var(--copy);
   display: flex;
   align-items: center;
@@ -56,7 +56,7 @@
   border: 1px solid var(--border);
   box-shadow: var(--box-shadow);
   background: var(--background);
-  width: 50px;
+  width: 60px;
 }
 
 .pdf-container {

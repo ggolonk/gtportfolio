@@ -20,7 +20,7 @@ const options = {
 };
 
 const resizeObserverOptions = {};
-const maxWidth = 500;
+const maxWidth = 800;
 
 export default function PDFViewer({ pdfUrl, showPDF, setShowPDF }) {
   const [file, setFile] = useState(pdfUrl);
