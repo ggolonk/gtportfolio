@@ -168,11 +168,10 @@ export default function Projects() {
                 <div className={`project-child ${selectedPicture ? "project-child-with-picture" : "project-child-full-screen"}`}
                 >
                   {classCode === "Course Selector" && <p>
-                    As an senior aerospace engineering student at the University of Notre Dame,
-                    my past projects show my interdiciplinary skills.
-                    My work spans from analyzing viscous shock waves with molecular dissociation to
-                    designing and optimizing RC aircraft. With hands-on experience in wind tunnel testing, computational simulations, and
-                    engineering design. I am interested in high-speed aerodynamics, propulsion, and mechanical systems.
+                    As a senior aerospace engineering student at the University of Notre Dame, my past projects demonstrate my interdisciplinary skills.
+                     My work ranges from analyzing viscous shock waves with molecular dissociation to designing and optimizing RC aircraft. With hands-on 
+                     experience in wind tunnel testing, computational simulations, and engineering design, I am particularly interested in high-speed aerodynamics, 
+                     propulsion, and mechanical systems.
                     <hr />
                     <br />
                     To explore each project in greater detail, please use the <i>Course Selector</i> menu, which organizes completed projects by their respective courses.</p>}
