@@ -135,7 +135,8 @@
 
 .project-child img {
   width: 400px;
-  height: 300px;
+  height: auto;
+  border-radius: var(--border-radius);
   object-fit: cover;
 }
 

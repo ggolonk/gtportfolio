@@ -151,6 +151,7 @@
   .project-child img {
     width: 400px; /* Fixed size for the image */
     height: auto;
+    border-radius: var(--border-radius);
     object-fit: cover;
   }
   
