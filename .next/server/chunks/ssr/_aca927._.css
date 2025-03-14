@@ -134,7 +134,7 @@
 }
 
 .project-child img {
-  width: clamp(300px, 60vw, 400px);
+  width: clamp(275px, 60vw, 350px);
   height: auto;
   border-radius: var(--border-radius);
   object-fit: cover;
@@ -161,7 +161,7 @@
   height: auto;
 }
 
-@media (width <= 800px) {
+@media (width <= 850px) {
   .project-parent {
     display: flex;
     flex-direction: column;
