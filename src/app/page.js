@@ -82,7 +82,7 @@ export default function Home() {
                 </div>
                 <div className="about-photo-container">
     <div className="about-photo-grid">
-        <img src="abroad.JPG" className="gallery-photo" />
+        <Image src="abroad.JPG" alt="Description" className="gallery-photo" priority/>
         <img src="dol2.png" className="gallery-photo" />
         <img src="cin.png" className="gallery-photo" />
         <img src="dol.png" className="gallery-photo" />
