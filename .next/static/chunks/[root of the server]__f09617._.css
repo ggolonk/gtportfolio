@@ -270,6 +270,33 @@ button {
   box-shadow: 0 4px 10px #e6000080;
 }
 
+.about-photo-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: var(--backgroundwords);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.gallery-photo {
+  width: 125px;
+  height: 115px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
+
 
 /* [project]/src/app/componentstyles/navbar.css [app-client] (css) */
 .navbar-container {

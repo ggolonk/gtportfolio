@@ -1,8 +1,4 @@
 /* [project]/src/app/projects/projects.css [app-client] (css) */
-.page {
-  z-index: 1;
-}
-
 .projects {
   margin-top: 25px;
   display: flex;
@@ -112,35 +108,56 @@
   justify-content: left;
 }
 
-.project-parent {
+.project-main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
   width: 100%;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .project-child {
   display: flex;
-  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   max-width: 100%;
-}
-
-.project-child p {
-  flex: 1;
-  max-width: 100%;
+  height: 100%;
 }
 
 .project-child img {
-  flex: 1;
-  max-width: 100%;
-  height: auto;
-  border-radius: var(--border-radius);
-  box-shadow: var(--copy-lighter);
+  width: 400px;
+  height: 300px;
   object-fit: cover;
+}
+
+.project-child p {
+  text-align: center;
+}
+
+.project-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-child-with-picture {
+  width: 45%;
+  height: auto;
+}
+
+.project-child-full-screen {
+  width: 100%;
+  height: auto;
 }
 
 @media (width <= 800px) {

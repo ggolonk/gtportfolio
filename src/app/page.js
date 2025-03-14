@@ -74,9 +74,26 @@ export default function Home() {
 
                         </div>
 
+
+
                     </div>
 
+
                 </div>
+                <div className="about-photo-container">
+    <div className="about-photo-grid">
+        <img src="abroad.JPG" className="gallery-photo" />
+        <img src="dol2.png" className="gallery-photo" />
+        <img src="cin.png" className="gallery-photo" />
+        <img src="dol.png" className="gallery-photo" />
+        <img src="aca.png" className="gallery-photo" />
+        <img src="game.png" className="gallery-photo" />
+        <img src="game2.png" className="gallery-photo" />
+        <img src="eng.png" className="gallery-photo" />
+        <img src="pal.png" className="gallery-photo" />
+        <img src="ski.png" className="gallery-photo" />
+    </div>
+</div>
             </m.div>
         </AnimatePresence>
     );

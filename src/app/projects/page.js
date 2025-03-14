@@ -27,17 +27,20 @@ const projects = [
   { id: "Experimental Aerodynamics", title: "Circulation about a 2-D Airfoil", description: "This is my Second project", pdf: "/project1.pdf" },
   { id: "Experimental Aerodynamics", title: "Airfoil Pressure Distribution", description: "This is my third project", pdf: "/project2.pdf" },
   { id: "Experimental Aerodynamics", title: "Lift and Drag of a Finite Wing", description: "This is my Fourth project", pdf: "/project3.pdf" },
-  { id: "Gas Turbines & Propulsions", title: "HAVE TO PUT IN", description: "This is my Fourth project", pdf: "/project3.pdf" },
-  { id: "Design Tools II", title: "HAVE TO PUT IN", description: "This is my Fourth project", pdf: "/project3.pdf" },
+  { id: "Gas Turbines & Propulsions", title: "Mission Code Report", description: "This is my Fourth project", pdf: "/MCR.pdf" },
+  { id: "Gas Turbines & Propulsions", title: "Simplified Mission Code Report", description: "This is my Fourth project", pdf: "/SMCR.pdf" },
+  { id: "Design Tools II", title: "Final Report", description: "This is my Fourth project", pdf: "/DT2.pdf" },
+  { id: "Design Tools II", title: "Final Bill of Materials", description: "This is my Fourth project", pdf: "/DT2FBOM.pdf" },
+
 ];
 
 const pictures = [
-  { id: "Senior Design", src: "sdes.jpg" },
-  { id: "Undergraduate Research", src: "unres.JPG" },
-  { id: "Personal Projects", src: "html.jpg" },
-  { id: "Experimental Aerodynamics", src: "wind-tunnel.png" },
-  { id: "Gas Turbines & Propulsions", src: "Galaxy.jpg" },
-  { id: "Design Tools II", src: "CompAss.jpg" },
+  { id: "Senior Design", src: "sdes.jpg", caption: "In Progress: Wing and fuselage structure for remote controlled plane." },
+  { id: "Undergraduate Research", src: "unres.png", caption: "One-dimensional helium shock wave structure at a velocity of 905 [m/s]" },
+  { id: "Personal Projects", src: "html.jpg", caption: "Fundamental HTML and JavaScript structure for the ongoing website development." },
+  { id: "Experimental Aerodynamics", src: "wind-tunnel.png", caption: "Low-speed wind tunnel utilized for testing aerodynamic properties and conducting fluid dynamics research." },
+  { id: "Gas Turbines & Propulsions", src: "f107.jpg", caption: "Williams F-107 engine" },
+  { id: "Design Tools II", src: "CompAss.jpg", caption: "Complete assembly of the food delivery robot with an automatic payload lifting system." },
 ];
 
 const classes = [
@@ -53,8 +56,8 @@ const courseDescriptions = [
   "Conducted an independent study into shock wave structures and their interaction with reactive systems, under the guidance of Dr. Joseph M. Powers. The project primarily focused on investigating the dissociation of diatomic molecules within a viscous shock structure. By examining the behavior of molecular bonds under the extreme temperatures and pressures present in shock waves, the study aimed to provide deeper insights into the molecular-level dynamics at play, contributing to improved modeling and design in propulsion systems and detonation processes. This research analyzes the physical properties of a shock wave by utilizing the one dimensional Navier-Stokes equations.",
   "Welcome to my first personal project! This website was created using a combination of JavaScript, HTML, Next.js, and CSS. The development process was a great learning experience, where I honed my skills by utilizing a variety of online resources. I also received valuable guidance from my brother, an aspiring software engineer, who helped me navigate the challenges of building and refining the website. The picture attach is a snippet from the actual website code.",
   "Gained hands-on experience with wind tunnel testing at Hessert Laboratories on the Notre Dame campus, working on a series of key aerodynamic experiments. These included calibrating pressure transducers to convert pressure measurements into digital data, analyzing circulation around a 2D airfoil, studying airfoil pressure distribution, and evaluating the lift and drag characteristics of a finite wing. Each experiment contributed to a deeper understanding of fluid dynamics, aerodynamic forces, and data analysis techniques, providing a comprehensive foundation in experimental aerodynamics.",
-  "Description for Gas Turbines & Propulsions: Focuses on turbine engine mechanics and performance.",
-  "Description for Design Tools II: Covers computational methods used in aerodynamics design.",
+  "Conducted a thermodynamic analysis of the Williams F-107 Turbofan engine to make it more thermodynamically efficient. The redesigned engine was then evaluated using a mission simulation code, which quantified fuel consumption during key flight phases, including ascent, cruise, and maneuvering, as outlined in the original problem statement.",
+  "Designed and built a food delivery robot featuring an automatic payload lifting system and opener. Using SOLIDWORKS, my team developed and analyzed individual subassemblies to establish design constraints before integrating them into a fully functional robotic system.",
 ];
 export default function Projects() {
   const [showProject, setShowProject] = useState(false);
@@ -62,6 +65,7 @@ export default function Projects() {
   const [classCode, setClassCode] = useState("Course Selector");
   const [showSelectClass, setShowSelectClass] = useState(false);
   const [selectedDescription, setSelectedDescription] = useState("");
+  const [selectedCaption, setSelectedCaption] = useState("");
   const [selectedPicture, setSelectedPicture] = useState("");
   const classSelectRef = useRef(null);
 
@@ -75,8 +79,11 @@ export default function Projects() {
     setSelectedDescription(courseDescriptions[index]);
     const pictureObject = pictures.find((pic) => pic.id === classes[index]);
     setSelectedPicture(pictureObject ? pictureObject.src : "");
+    setSelectedCaption(pictureObject ? pictureObject.caption : ""); // Set caption from pictures
     setShowSelectClass(false);
   };
+
+
 
   const filteredProjects = projects.filter((project) => project.id === classCode);
 
@@ -158,7 +165,8 @@ export default function Projects() {
                 </m.button>
               ))}
               <div className="project-parent">
-                <div className="project-child">
+                <div className={`project-child ${selectedPicture ? "project-child-with-picture" : "project-child-full-screen"}`}
+                >
                   {classCode === "Course Selector" && <p>
                     As an senior aerospace engineering student at the University of Notre Dame,
                     my past projects show my interdiciplinary skills.
@@ -167,12 +175,17 @@ export default function Projects() {
                     engineering design. I am interested in high-speed aerodynamics, propulsion, and mechanical systems.
                     <hr />
                     <br />
-                    To discover more about each project, use the <i>Course Selector</i> menu to discover my most recent projects</p>}
-                  {selectedDescription && <p>{selectedDescription}</p>}
+                    To explore each project in greater detail, please use the <i>Course Selector</i> menu, which organizes completed projects by their respective courses.</p>}
+                    
+                  {selectedDescription && <p>
+                    <hr className="page-line"></hr>{selectedDescription}
+                  <hr className="page-line"></hr></p>}
+                  
                 </div>
                 {classCode !== "Course Selector" && selectedPicture && (
-                  <div className="project-child">
+                  <div className="project-child project-child-with-picture">
                     <img src={selectedPicture} alt={classCode} width={400} height={300} />
+                    <p> {selectedCaption}</p>
                   </div>
                 )}
               </div>

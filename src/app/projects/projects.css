@@ -1,7 +1,4 @@
-.page{
-    z-index: 1;
 
-}
 .projects {
     margin-top: 25px;
     display: flex;
@@ -126,36 +123,59 @@
 
 }
 
-.project-parent {
+.project-main {
     display: flex;
-    flex-direction: row;
-    align-items: center; 
-    justify-content: center; 
-    gap: 2rem;
-    flex-wrap: wrap; 
-    width: 100%; 
-}
-
-.project-child {
+    flex-direction: column; /* Default is column for full-screen case */
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Full width */
+  }
+  
+  .project-grid {
     display: flex;
-    flex: 1; 
-    width: 100%;
-    max-width: 100%; 
-}
-
-.project-child p { 
-    flex: 1; 
-    max-width: 100%; 
-}
-
-.project-child img {
-    flex: 1; 
-    max-width: 100%; 
-    height: auto; 
-    border-radius: var(--border-radius); 
-    box-shadow: var(--copy-lighter);
+    flex-wrap: wrap; /* Allow wrapping of elements */
+    justify-content: center;
+    gap: 20px; /* Space between the project-child divs */
+  }
+  
+  .project-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Default width (full screen if no picture) */
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .project-child img {
+    width: 400px; /* Fixed size for the image */
+    height: 300px;
     object-fit: cover;
-}
+  }
+  
+  .project-child p {
+    text-align: center;
+  }
+  
+  .project-parent {
+    display: flex;
+    flex-wrap: wrap; /* Ensure child divs sit next to each other */
+    justify-content: center;
+    gap: 20px; /* Space between items */
+  }
+  
+  .project-child-with-picture {
+    width: 45%; /* Adjust width to sit next to another div */
+    height: auto;
+  }
+  
+  .project-child-full-screen {
+    width: 100%; /* Take full width if there's no picture */
+    height: auto;
+  }
+  
+
 
 /* Responsive Design */
 @media (max-width: 800px) {
