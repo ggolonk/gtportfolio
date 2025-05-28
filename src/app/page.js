@@ -60,7 +60,7 @@ export default function Home() {
                             </m.button>
                             {showResume && (
                                 <PDFViewer
-                                    pdfUrl={`/GG_Resume.pdf`}
+                                    pdfUrl={`/resume.pdf`}
                                     showPDF={showResume}
                                     setShowPDF={setShowResume}
                                 />
