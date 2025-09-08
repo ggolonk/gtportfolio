@@ -21,7 +21,7 @@ export default function About() {
           <div className="about-child">
             <h3>Academic Background</h3>
             <hr className="page-line"></hr>
-            <p>I’m a senior at the University of Notre Dame, working toward my B.S. in Aerospace Engineering,
+            <p>I recently graduated from the University of Notre Dame with a Bachelor of Science in Aerospace Engineering,
               with coursework spanning thermodynamics, fluid mechanics, aerodynamics, and propulsion.
               Alongside my studies, I’ve built a strong foundation in engineering software
               and programming, including MATLAB, Python, and SolidWorks. Outside the classroom, I have participated in undergraduate research

@@ -75,7 +75,7 @@ function About() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    children: "I’m a senior at the University of Notre Dame, working toward my B.S. in Aerospace Engineering, with coursework spanning thermodynamics, fluid mechanics, aerodynamics, and propulsion. Alongside my studies, I’ve built a strong foundation in engineering software and programming, including MATLAB, Python, and SolidWorks. Outside the classroom, I have participated in undergraduate research with Dr. Joseph Powers, studying the thermochemical properties of shockwaves."
+                                    children: "I recently graduated from the University of Notre Dame with a Bachelor of Science in Aerospace Engineering, with coursework spanning thermodynamics, fluid mechanics, aerodynamics, and propulsion. Alongside my studies, I’ve built a strong foundation in engineering software and programming, including MATLAB, Python, and SolidWorks. Outside the classroom, I have participated in undergraduate research with Dr. Joseph Powers, studying the thermochemical properties of shockwaves."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.js",
                                     lineNumber: 24,
