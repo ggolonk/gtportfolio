@@ -32,9 +32,9 @@ export default function Contact() {
 
             <div className="contact-button">
               <a href="mailto:gtgolonka91602@gmail.com" className="gmail-button">
-                <img src="gmail.png" className="gmail-pic"></img>
+                <img src="Mail.png" className="mail-pic"></img>
               </a>
-              <p>Email : gtgolonka91602@gmail.com</p>
+              <p>Email : gregorygolonka@outlook.com</p>
 
 
 

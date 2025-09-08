@@ -168,7 +168,7 @@ function About() {
                                             lineNumber: 49,
                                             columnNumber: 16
                                         }, this),
-                                        " – I believe that success is built through dedication and persistence. Whether it's struggling through a lengthly homework assignment, or the heavily lifting in a semester project. , refining designs, or leading a team, I approach every challenge with a problem-solving mindset and a relentless work ethic."
+                                        " – I believe that success is achieved through dedication and perseverance. Whether overcoming complex homework assignments, contributing to the demanding efforts of a semester-long project, refining intricate designs, or leading a team, I approach every challenge with a problem-solving mindset and an unwavering commitment to excellence."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/about/page.js",
@@ -181,14 +181,14 @@ function About() {
                                             children: "Family & Community "
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.js",
-                                            lineNumber: 54,
+                                            lineNumber: 53,
                                             columnNumber: 16
                                         }, this),
                                         " – My family has always been a source of support and inspiration. Growing up, I learned the importance of commitment, teamwork, and integrity, values that I carry into my professional and academic pursuits."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/about/page.js",
-                                    lineNumber: 54,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -207,7 +207,7 @@ function About() {
                     className: "about-line"
                 }, void 0, false, {
                     fileName: "[project]/src/app/about/page.js",
-                    lineNumber: 61,
+                    lineNumber: 60,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -220,27 +220,27 @@ function About() {
                                     children: "Leadership & Experience"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.js",
-                                    lineNumber: 64,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                     className: "page-line"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.js",
-                                    lineNumber: 65,
+                                    lineNumber: 64,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: " My first leadership experience was as the captain of my varsity hockey team, where I fostered accountability among teammates, emphasizing both physical and mental well-being. I further developed my leadership skills as Vice President of Dunne Hall, managing planning and budgeting for dorm-wide and campus-wide initiatives."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.js",
-                                    lineNumber: 66,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 63,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -251,25 +251,25 @@ function About() {
                                 height: 200
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 73,
+                                lineNumber: 72,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 72,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/about/page.js",
-                    lineNumber: 62,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                     className: "about-line"
                 }, void 0, false, {
                     fileName: "[project]/src/app/about/page.js",
-                    lineNumber: 78,
+                    lineNumber: 77,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -283,12 +283,12 @@ function About() {
                                 height: 200
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 81,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 80,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -298,40 +298,40 @@ function About() {
                                     children: "Beyond Engineering"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.js",
-                                    lineNumber: 85,
+                                    lineNumber: 84,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                     className: "page-line"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.js",
-                                    lineNumber: 86,
+                                    lineNumber: 85,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    children: "Outside of my academic and professional pursuits, I enjoy spending time with friends and staying active. Some of my favorite activities include hockey, golf, skiing, and working out. Whereever I am, I always appreciate the challenge and excitement of staying active and exploring new experiences.          "
+                                    children: "Outside of my academic and professional pursuits, I enjoy spending time with friends and staying active. Some of my favorite activities include hockey, golf, skiing, and working out. Being from Vermont I always enjoyed the outdoors and have been to national parks in Europe and across North America. Wherever I am, I always appreciate the challenge and excitement of staying active and exploring new experiences.          "
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.js",
-                                    lineNumber: 87,
+                                    lineNumber: 86,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 84,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/about/page.js",
-                    lineNumber: 79,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                     className: "about-line"
                 }, void 0, false, {
                     fileName: "[project]/src/app/about/page.js",
-                    lineNumber: 96,
+                    lineNumber: 97,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -342,7 +342,7 @@ function About() {
                             className: "gallery-photo"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 98,
+                            lineNumber: 99,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -350,7 +350,7 @@ function About() {
                             className: "gallery-photo"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 99,
+                            lineNumber: 100,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -358,7 +358,7 @@ function About() {
                             className: "gallery-photo"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 100,
+                            lineNumber: 101,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -366,7 +366,7 @@ function About() {
                             className: "gallery-photo"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 101,
+                            lineNumber: 102,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -374,7 +374,7 @@ function About() {
                             className: "gallery-photo"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 102,
+                            lineNumber: 103,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -382,7 +382,7 @@ function About() {
                             className: "gallery-photo"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 103,
+                            lineNumber: 104,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -390,13 +390,37 @@ function About() {
                             className: "gallery-photo"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.js",
-                            lineNumber: 104,
+                            lineNumber: 105,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            src: "Lake.png",
+                            className: "gallery-photo"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/about/page.js",
+                            lineNumber: 106,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            src: "Emerald.png",
+                            className: "gallery-photo"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/about/page.js",
+                            lineNumber: 107,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            src: "Waterfall.png",
+                            className: "gallery-photo"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/about/page.js",
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/about/page.js",
-                    lineNumber: 97,
+                    lineNumber: 98,
                     columnNumber: 9
                 }, this)
             ]

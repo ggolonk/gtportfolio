@@ -85,7 +85,9 @@ export default function About() {
             <hr className="page-line"></hr>
             <p>
               Outside of my academic and professional pursuits, I enjoy spending time with friends and staying active.
-              Some of my favorite activities include hockey, golf, skiing, and working out. Whereever I am, I always appreciate the challenge
+              Some of my favorite activities include hockey, golf, skiing, and working out. Being from Vermont I always enjoyed the outdoors and have been
+               to national parks in Europe and across North America.
+              Wherever I am, I always appreciate the challenge
               and excitement of staying active and exploring new experiences.          </p>
           </div>
 
@@ -101,6 +103,9 @@ export default function About() {
           <img src={"gracegame.jpg"} className="gallery-photo" />
           <img src={"hike4.jpg"} className="gallery-photo" />
           <img src={"Grace.jpg"} className="gallery-photo" />
+          <img src={"Lake.png"} className="gallery-photo" />
+          <img src={"Emerald.png"} className="gallery-photo" />
+          <img src={"Waterfall.png"} className="gallery-photo" />
         </div>
 
       </m.div>

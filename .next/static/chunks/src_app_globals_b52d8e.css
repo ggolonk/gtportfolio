@@ -181,17 +181,17 @@ button {
   vertical-align: middle;
 }
 
-.gmail-pic {
+.mail-pic {
   align-items: center;
   margin: .5rem;
   justify-content: center;
-  width: 60%;
+  width: 75%;
   height: auto;
 }
 
 .gmail-button:hover {
   transform: scale(1.1);
-  box-shadow: 0 4px 10px #e6000080;
+  box-shadow: 0 4px 10px #2a00e680;
 }
 
 .about-photo-container {

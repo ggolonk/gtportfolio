@@ -42,10 +42,11 @@ export default function Home() {
 
                     </div>
                     <div className="home-header-child">
-                        <p>Hi there! My name is Gregory, and I am an aspiring aerospace engineer currently studying at the University of Notre Dame.
-                            My passion lies in solving complex engineering problems, from aerodynamics
-                            to propulsion systems, and I have hands-on experience in both research and design.
-                        </p>
+                        <p>I’m Gregory Golonka, a recent graduate in aerospace engineering
+                             from the University of Notre Dame. I enjoy tackling challenging problems 
+                             in aerodynamics and propulsion, and my background includes hands-on work in
+                              both research and design. I’m eager to apply my skills and curiosity to projects 
+                              that push the boundaries of aerospace technology.</p>
 
 
                         <div className="h-h-child">
@@ -68,8 +69,8 @@ export default function Home() {
                             <a href="https://www.linkedin.com/in/ggolonka/" target="_blank" rel="noopener noreferrer" className="linkedin-button">
                                 <img src="linkedin.png" className="linkedin-pic"></img>
                             </a>
-                            <a href="mailto:gtgolonka91602@gmail.com" className="gmail-button">
-                                <img src="gmail.png" className="gmail-pic"></img>
+                            <a href="mailto:gregorygolonka@outlook.com" className="gmail-button">
+                                <img src="Mail.png" className="mail-pic"></img>
                             </a>
 
                         </div>
