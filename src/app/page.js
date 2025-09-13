@@ -61,7 +61,7 @@ export default function Home() {
                             </m.button>
                             {showResume && (
                                 <PDFViewer
-                                    pdfUrl={`/resume.pdf`}
+                                    pdfUrl={`/Gregory_Golonka.pdf`}
                                     showPDF={showResume}
                                     setShowPDF={setShowResume}
                                 />
