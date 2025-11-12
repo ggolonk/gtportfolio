@@ -1,0 +1,84 @@
+/* [project]/src/app/projects/projects.css [app-client] (css) */
+.projects {
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 25px;
+  padding: 0;
+  display: flex;
+}
+
+.projects-header {
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 0;
+  padding: 0 1rem;
+  display: flex;
+  position: relative;
+}
+
+.page-line {
+  border: none;
+  border-top: 2px solid var(--foreground);
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.project-parent {
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  display: flex;
+}
+
+.projects-child {
+  background-color: var(--backgroundwords);
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex: 45%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+}
+
+.projects-child img {
+  border-radius: var(--border-radius);
+  max-width: 100%;
+  height: auto;
+  box-shadow: var(--copy-lighter);
+  margin: auto;
+  display: block;
+}
+
+.projects-button {
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  display: flex;
+}
+
+@media (max-width: 850px) {
+  .project-parent {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .projects-child {
+    flex-direction: column;
+    flex: 100%;
+    max-width: 95%;
+  }
+}
+
+/*# sourceMappingURL=src_app_projects_projects_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/grego/OneDrive/Documents/GitHub/gtportfolio/src/app/contact/contact.css"],"sourcesContent":["\r\n.contact-parent{\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    gap: 3rem;\r\n\r\n}\r\n.contact.child{\r\n    display: flex;\r\n    flex-direction:column ;\r\n    align-items: center;\r\n    gap: 1rem;\r\n}\r\n\r\n.contact-button{\r\n    display: flex;\r\n    flex-direction:row;\r\n    gap: 1rem;\r\n    align-items: center;\r\n    height: 70px ;\r\n    width: 300px ;\r\n    background-color: var(--backgroundwords);  \r\n    border-radius: var(--border-radius);\r\n    \r\n\r\n}\r\n\r\n@media screen and (max-width: 600px) {\r\n    \r\n.contact-parent{\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    padding: 1rem;\r\n    gap: 2rem;\r\n\r\n}\r\n}\r\n\r\n"],"names":[],"mappings":"AACA;;;;;;;AAOA;;;;;;;AAOA;;;;;;;;;;;AAaA;EAEA","debugId":null}}]
+}

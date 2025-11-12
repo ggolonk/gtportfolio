@@ -4,6 +4,7 @@ import { motion as m } from 'motion/react';
 import PDFViewer from "./components/pdfViewer";
 import { useState } from "react";
 import { AnimatePresence } from "motion/react";
+import Image from "next/image";
 
 const pictures = [
     // Profile Picture
@@ -38,7 +39,8 @@ export default function Home() {
                 <div className="home-header">
                     <div className="home-header-child">
                         <img src="/profile-pic.jpg"
-                            width={200}></img>
+                            width={300}
+                            ></img>
 
                     </div>
                     <div className="home-header-child">
@@ -67,32 +69,64 @@ export default function Home() {
                                 />
                             )}
                             <a href="https://www.linkedin.com/in/ggolonka/" target="_blank" rel="noopener noreferrer" className="linkedin-button">
-                                <img src="linkedin.png" className="linkedin-pic"></img>
+                                <Image src="/linkedin.png" 
+                                 width={300}
+                                 height={300}
+                                 className="linkedin-pic"></Image>
                             </a>
                             <a href="mailto:gregorygolonka@outlook.com" className="gmail-button">
-                                <img src="Mail.png" className="mail-pic"></img>
+                                <Image src="/Mail.png" 
+                                 width={300}
+                                 height={300} 
+                                 className="mail-pic"></Image>
                             </a>
 
                         </div>
-
-
-
                     </div>
-
 
                 </div>
                 <div className="about-photo-container">
     <div className="about-photo-grid">
-        <img src="abroad.JPG" className="gallery-photo" />
-        <img src="dol2.png" className="gallery-photo" />
-        <img src="cin.png" className="gallery-photo" />
-        <img src="dol.png" className="gallery-photo" />
-        <img src="aca.png" className="gallery-photo" />
-        <img src="game.png" className="gallery-photo" />
-        <img src="game2.png" className="gallery-photo" />
-        <img src="eng.png" className="gallery-photo" />
-        <img src="pal.png" className="gallery-photo" />
-        <img src="ski.png" className="gallery-photo" />
+        <Image src="/abroad.JPG" 
+        width={120}
+        height={120}
+         className="gallery-photo" />
+        <Image src="/dol2.png" 
+        width={120}
+        height={120}
+        className="gallery-photo" />
+        <Image src="/cin.png" 
+        width={120}
+        height={120}
+        className="gallery-photo" />
+        <Image src="/dol.png" 
+        width={120}
+        height={120}
+        className="gallery-photo" />
+        <Image src="/aca.png" 
+        width={120}
+        height={120}
+        className="gallery-photo" />
+        <Image src="/game.png" 
+        width={120}
+        height={120}
+        className="gallery-photo" />
+        <Image src="/game2.png" 
+        width={120}
+        height={120}
+        className="gallery-photo" />
+        <Image src="/eng.png" 
+        width={120}
+        height={120}
+        className="gallery-photo" />
+        <Image src="/pal.png" 
+        width={120}
+        height={120}
+        className="gallery-photo" />
+        <Image src="/ski.png" 
+        width={120}
+        height={120}
+        className="gallery-photo" />
     </div>
 </div>
             </m.div>

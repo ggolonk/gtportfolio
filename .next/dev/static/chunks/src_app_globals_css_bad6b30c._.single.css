@@ -73,6 +73,7 @@ p {
 
 hr {
   color: var(--foreground);
+  background-color: var(--background);
   margin-top: 2px;
   margin-bottom: 2px;
 }
