@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/grego/OneDrive/Documents/GitHub/gtportfolio/src/app/projects/engineeringcomputing/page.js"],"sourcesContent":["<PButton pdfUrl=\"/project0.pdf\"\r\n                                             title= \"Tranducer Calibration\"></PButton>"],"names":[],"mappings":";AAAA,QAAC;IAAQ,QAAO;IAC6B,OAAO","debugId":null}}]
-}

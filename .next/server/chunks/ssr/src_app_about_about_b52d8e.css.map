@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/about/about.css"],"sourcesContent":[".about-parent {\r\n    margin: 1rem;\r\n    display: flex;\r\n    align-items: center; \r\n    justify-content: flex-start;\r\n    gap: 2rem;\r\n    flex-wrap: wrap;\r\n}\r\n\r\n.about-child {\r\n    flex: 1;\r\n    display: flex; \r\n    flex-direction: column; \r\n    align-items: center; \r\n    justify-content: center; \r\n    max-width: 85%;\r\n    background-color: var(--backgroundwords);\r\n    padding: 1rem;\r\n    border-radius: var(--border-radius);\r\n    text-align: center; \r\n}\r\n\r\n\r\n.about-child img {\r\n    display: block;\r\n    max-width: 100%;\r\n    height: auto;\r\n    margin: auto; \r\n    border-radius: var(--border-radius);\r\n    box-shadow: var(--copy-lighter);\r\n}\r\n\r\n.about-line {\r\n    width: 100%;\r\n    border: none; \r\n    height: 2px; \r\n    background-color: var(--border);\r\n  }\r\n\r\n/* Responsive Design */\r\n@media (max-width: 850px) {\r\n    .about-parent {\r\n        flex-direction: column;\r\n        align-items: center;\r\n    }\r\n\r\n    .about-child {\r\n        max-width: 100%; \r\n        text-align: center; \r\n}\r\n}\r\n\r\n "],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;;;;;;;;AAcA;;;;;;;;;AASA;;;;;;;AAQA;EACI;;;;;EAKA"}},
-    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

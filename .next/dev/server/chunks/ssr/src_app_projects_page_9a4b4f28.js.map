@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/grego/OneDrive/Documents/GitHub/gtportfolio/src/app/projects/page.js"],"sourcesContent":["\"use client\";\r\n\r\nimport Link from \"next/link\";\r\nimport { useState } from \"react\";\r\nimport { motion as m } from \"motion/react\";\r\nimport \"./projects.css\";\r\nimport Pselector from \"./components/projectsselector\";\r\n\r\n\r\nexport default function Projects() {\r\n \r\n  return (\r\n    <div className=\"page\">\r\n      <div className=\"projects\">\r\n        <div className=\"projects-header\">\r\n          <h2 className=\"ac-header\">Academic Projects</h2>\r\n\r\n\r\n           \r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AACA;;;;;;AAHA;;;;;;;AASe,SAAS;IAEtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;sBACb,cAAA,8OAAC;gBAAI,WAAU;0BACb,cAAA,8OAAC;oBAAG,WAAU;8BAAY;;;;;;;;;;;;;;;;;;;;;AAQpC","debugId":null}}]
-}
