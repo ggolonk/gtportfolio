@@ -201,11 +201,11 @@ function PSelector() {
     };
     const dropdownLinks = [
         {
-            href: "/projects/seniordesign",
+            href: "/projects/sdesign",
             label: "Senior Design"
         },
         {
-            href: "/projects/undergraduateresearch",
+            href: "/projects/uresearch",
             label: "Undergraduate Research"
         },
         {
@@ -457,10 +457,10 @@ function designtools() {
                                     className: "projects-child",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/CompASS.jpg",
+                                            src: "/CompAss.jpg",
                                             width: 400,
                                             height: 500,
-                                            alt: "Temp_rare"
+                                            alt: "Comp_ass"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/designtools/page.js",
                                             lineNumber: 41,

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { motion as m } from "motion/react";
-import "../componentstyles/pselector.css";
+import "../componentstyles/projectbutton.css";
 import PDFViewer from "@/app/components/pdfViewer";
 
 

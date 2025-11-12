@@ -218,11 +218,11 @@ function PSelector() {
     };
     const dropdownLinks = [
         {
-            href: "/projects/seniordesign",
+            href: "/projects/sdesign",
             label: "Senior Design"
         },
         {
-            href: "/projects/undergraduateresearch",
+            href: "/projects/uresearch",
             label: "Undergraduate Research"
         },
         {
