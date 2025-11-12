@@ -38,7 +38,7 @@ export default function designtools() {
                                     </div>
                                   </div>
                                   <div className="projects-child">
-                                    <Image src="/CompASS.jpg" width={400} height={500} alt="Temp_rare" />
+                                    <Image src="/CompAss.jpg" width={400} height={500} alt="Comp_ass" />
                                     <p>Comprehensive SolidWorks Assembly of final product.</p>
                                   </div>
                                 </div>
