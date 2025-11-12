@@ -46,7 +46,7 @@ export default function seniordesign() {
                         </div>
                         <div className="projects-child">
                             <Image src={"/sdes.jpg"} width={300} height={500} alt="manufacturing" />
-                            <p> Model plane in manufactuirng process.</p>
+                            <p> Model plane in manufacturing process.</p>
                         </div>
                     </div>
 
