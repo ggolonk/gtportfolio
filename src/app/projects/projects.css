@@ -82,4 +82,14 @@
     max-width: 95%;
     flex-direction: column;
   }
+.projects-header {
+    display: flex;
+    flex-wrap: wrap;          
+    justify-content: flex-end;
+    width: calc(100% - 225px);/* leave 225px space on the left */
+    margin-left: 225px; 
+    margin-right: 0px;      
+    gap: 0.5rem;              
+  }
+
 }
