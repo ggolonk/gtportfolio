@@ -118,7 +118,7 @@ export default function About() {
           <Image src={"/Grace.jpg"} 
               width={120}
               height={120} className="gallery-photo" />
-          <Image src={"/Lake.png"} 
+          <Image src={"/lake.png"} 
               width={120}
               height={120} className="gallery-photo" />
           <Image src={"/Emerald.png"} 
