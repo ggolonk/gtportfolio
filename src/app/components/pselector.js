@@ -14,8 +14,8 @@ export default function PSelector() {
   };
 
   const dropdownLinks = [
-    { href: "/projects/seniordesign", label: "Senior Design" },
-    { href: "/projects/undergraduateresearch", label: "Undergraduate Research" },
+    { href: "/projects/sdesign", label: "Senior Design" },
+    { href: "/projects/uresearch", label: "Undergraduate Research" },
     { href: "/projects/engineeringcomputing", label: "Engineering Computing" },
     { href: "/projects/personalprojects", label: "Personal Projects" },
     { href: "/projects/experimentalaerodynamics", label: "Experimental Aerodynamics" },
