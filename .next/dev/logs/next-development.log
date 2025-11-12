@@ -1,129 +1,26 @@
-[00:00:03.618] Server  LOG      ✓ Ready in 2.3s
-[00:00:12.794] Server  LOG      ○ Compiling / ...
-[00:00:35.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:36.248] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.248] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.248] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.248] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.248] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.248] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.249] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.249] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.249] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.249] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.249] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.249] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:36.400] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:36.400] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:36.400] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762969765369}
-[00:01:14.654] Browser WARN    You are trying to animate borderRadius from "var(border-radius)" to ".375rem". var(border-radius) is not an animatable value - to enable this animation set var(border-radius) to a value animatable to .375rem via the `style` property.
-[00:01:15.376] Browser WARN    You are trying to animate borderRadius from ".375rem" to "var(border-radius)". .375rem is not an animatable value - to enable this animation set .375rem to a value animatable to var(border-radius) via the `style` property.
-[00:01:15.376] Browser WARN    You are trying to animate borderRadius from "var(border-radius)" to ".375rem". var(border-radius) is not an animatable value - to enable this animation set var(border-radius) to a value animatable to .375rem via the `style` property.
-[00:01:16.166] Browser WARN    You are trying to animate borderRadius from ".375rem" to "var(border-radius)". .375rem is not an animatable value - to enable this animation set .375rem to a value animatable to var(border-radius) via the `style` property.
-[00:01:18.725] Server  LOG      ○ Compiling /projects ...
-[00:01:27.139] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762969815703}
-[00:01:27.139] Browser WARN    Image with src "/eng.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:27.214] Server  LOG      ○ Compiling /projects/engineeringcomputing ...
-[00:03:47.746] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:49.145] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:49.145] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
-[00:03:49.145] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762969957594}
-[00:03:53.701] Browser WARN    Image with src "/eng.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:53.701] Browser WARN    Image with src "/eng.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:03:59.478] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects/engineeringcomputing color: rgb(120, 120, 120) color: inherit {"dp":"/projects/engineeringcomputing","o":"http://localhost:3000/projects/engineeringcomputing","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762969968454}
-[00:03:59.777] Browser WARN    Image with src "/T_Mrare.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:11.499] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects/uresearch color: rgb(120, 120, 120) color: inherit {"dp":"/projects/uresearch","o":"http://localhost:3000/projects/uresearch","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762969980502}
-[00:04:11.616] Browser WARN    Image with src "/unres.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:35.647] Server  LOG      ✓ Compiled in 131ms
-[00:04:55.591] Server  LOG      ✓ Compiled in 40ms
-[00:05:00.460] Server  LOG      ✓ Compiled in 40ms
-[00:05:05.219] Server  LOG      ✓ Compiled in 41ms
-[00:05:08.211] Server  LOG      ✓ Compiled in 73ms
-[00:05:09.143] Browser ERROR   ./src/app/componentstyles/projectbutton.css:4:1
-Parsing CSS source code failed
-  2 | padding
-  3 |
-> 4 | }
-    | ^
-  5 | .pbutton:hover{
-  6 |     box-shadow: 0px 4px 10px var(--primary);
-  7 |     
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/componentstyles/projectbutton.css [Client Component Browser]
-    ./src/app/components/pbutton.js [Client Component Browser]
-    ./src/app/projects/engineeringcomputing/page.js [Client Component Browser]
-    ./src/app/projects/engineeringcomputing/page.js [Server Component]
-[00:05:13.713] Server  LOG      ✓ Compiled in 30ms
-[00:05:23.679] Server  LOG      ✓ Compiled in 30ms
-[00:05:24.140] Browser ERROR   ./src/app/componentstyles/projectbutton.css:4:1
-Parsing CSS source code failed
-  2 |     padding: (1rem;
-  3 |
-> 4 | }
-    | ^
-  5 | .pbutton:hover{
-  6 |     box-shadow: 0px 4px 10px var(--primary);
-  7 |     
-
-Unexpected token CloseCurlyBracket
-
-Import trace:
-  Client Component Browser:
-    ./src/app/componentstyles/projectbutton.css [Client Component Browser]
-    ./src/app/components/pbutton.js [Client Component Browser]
-    ./src/app/projects/engineeringcomputing/page.js [Client Component Browser]
-    ./src/app/projects/engineeringcomputing/page.js [Server Component]
-[00:05:29.141] Browser ERROR   ./src/app/componentstyles/projectbutton.css:2:16
-Parsing CSS source code failed
-  1 | .pbutton{
-> 2 |     paddingleft;
-    |                ^
-  3 |
-  4 | }
-  5 | .pbutton:hover{
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/componentstyles/projectbutton.css [Client Component Browser]
-    ./src/app/components/pbutton.js [Client Component Browser]
-    ./src/app/projects/engineeringcomputing/page.js [Client Component Browser]
-    ./src/app/projects/engineeringcomputing/page.js [Server Component]
-[00:05:31.160] Browser ERROR   ./src/app/componentstyles/projectbutton.css:2:17
-Parsing CSS source code failed
-  1 | .pbutton{
-> 2 |     padding-left;
-    |                 ^
-  3 |
-  4 | }
-  5 | .pbutton:hover{
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/componentstyles/projectbutton.css [Client Component Browser]
-    ./src/app/components/pbutton.js [Client Component Browser]
-    ./src/app/projects/engineeringcomputing/page.js [Client Component Browser]
-    ./src/app/projects/engineeringcomputing/page.js [Server Component]
-[00:05:37.201] Server  LOG      ✓ Compiled in 52ms
-[00:05:43.880] Server  LOG      ✓ Compiled in 61ms
-[00:05:50.462] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects/engineeringcomputing color: rgb(120, 120, 120) color: inherit {"dp":"/projects/engineeringcomputing","o":"http://localhost:3000/projects/engineeringcomputing","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762970079433}
-[00:05:58.687] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects/experimentalaerodynamics color: rgb(120, 120, 120) color: inherit {"dp":"/projects/experimentalaerodynamics","o":"http://localhost:3000/projects/experimentalaerodynamics","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762970087542}
-[00:05:58.851] Browser WARN    Image with src "/wind-tunnel.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:05.299] Browser WARN    You are trying to animate borderRadius from "var(border-radius)" to ".375rem". var(border-radius) is not an animatable value - to enable this animation set var(border-radius) to a value animatable to .375rem via the `style` property.
-[00:06:05.299] Browser WARN    You are trying to animate borderRadius from ".375rem" to "var(border-radius)". .375rem is not an animatable value - to enable this animation set .375rem to a value animatable to var(border-radius) via the `style` property.
-[00:06:05.515] Browser WARN    You are trying to animate borderRadius from "var(border-radius)" to ".375rem". var(border-radius) is not an animatable value - to enable this animation set var(border-radius) to a value animatable to .375rem via the `style` property.
-[00:06:05.909] Browser WARN    You are trying to animate borderRadius from ".375rem" to "var(border-radius)". .375rem is not an animatable value - to enable this animation set .375rem to a value animatable to var(border-radius) via the `style` property.
-[00:06:05.909] Browser WARN    You are trying to animate borderRadius from "var(border-radius)" to ".375rem". var(border-radius) is not an animatable value - to enable this animation set var(border-radius) to a value animatable to .375rem via the `style` property.
-[00:06:06.256] Browser WARN    You are trying to animate borderRadius from ".375rem" to "var(border-radius)". .375rem is not an animatable value - to enable this animation set .375rem to a value animatable to var(border-radius) via the `style` property.
-[00:06:06.577] Browser WARN    You are trying to animate borderRadius from "var(border-radius)" to ".375rem". var(border-radius) is not an animatable value - to enable this animation set var(border-radius) to a value animatable to .375rem via the `style` property.
-[00:06:06.577] Browser WARN    You are trying to animate borderRadius from ".375rem" to "var(border-radius)". .375rem is not an animatable value - to enable this animation set .375rem to a value animatable to var(border-radius) via the `style` property.
-[00:06:09.758] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects/designtools color: rgb(120, 120, 120) color: inherit {"dp":"/projects/designtools","o":"http://localhost:3000/projects/designtools","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762970098755}
-[00:06:10.829] Browser WARN    Image with src "/CompAss.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:03.482] Server  LOG      ✓ Ready in 2.4s
+[00:00:10.164] Server  LOG      ○ Compiling / ...
+[00:00:17.776] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.927] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.927] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.927] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.927] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.927] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.927] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.936] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.936] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:19.937] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:19.938] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:19.938] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762970469060}
+[00:00:21.292] Browser WARN    You are trying to animate borderRadius from "var(border-radius)" to ".375rem". var(border-radius) is not an animatable value - to enable this animation set var(border-radius) to a value animatable to .375rem via the `style` property.
+[00:00:21.292] Browser WARN    You are trying to animate borderRadius from ".375rem" to "var(border-radius)". .375rem is not an animatable value - to enable this animation set .375rem to a value animatable to var(border-radius) via the `style` property.
+[00:00:21.458] Browser WARN    You are trying to animate borderRadius from "var(border-radius)" to ".375rem". var(border-radius) is not an animatable value - to enable this animation set var(border-radius) to a value animatable to .375rem via the `style` property.
+[00:00:22.264] Browser WARN    You are trying to animate borderRadius from ".375rem" to "var(border-radius)". .375rem is not an animatable value - to enable this animation set .375rem to a value animatable to var(border-radius) via the `style` property.
+[00:00:24.786] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762970473988}
+[00:00:24.942] Browser WARN    Image with src "/eng.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:41.890] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects/engineeringcomputing color: rgb(120, 120, 120) color: inherit {"dp":"/projects/engineeringcomputing","o":"http://localhost:3000/projects/engineeringcomputing","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762970491012}
+[00:00:41.890] Browser WARN    Image with src "/T_Mrare.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
