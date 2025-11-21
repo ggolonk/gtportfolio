@@ -46,8 +46,8 @@ export default function Home() {
                     <div className="home-header-child">
                         <p>I’m Gregory Golonka, a recent graduate in aerospace engineering
                              from the University of Notre Dame. I enjoy tackling challenging problems 
-                             in aerodynamics and propulsion, and my background includes hands-on work in
-                              both research and design. I’m eager to apply my skills and curiosity to projects 
+                             in aerodynamics, fluid mechanics and mechanical design, with an academic background that includes hands-on projects and
+                              computational research. I’m eager to apply my skills and curiosity to projects 
                               that push the boundaries of aerospace technology.</p>
 
 
