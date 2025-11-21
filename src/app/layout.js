@@ -16,9 +16,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Gregory Golonka",
-  description: "Personal Portfolio",
+  title: "Gregory Golonka ",
+  description: "Portfolio of personal projects.",
+  openGraph: {
+    title: "Gregory Golonka",
+    description: "Portfolio of personal projects.",
+    url: "https://gtgolonka.com",
+    siteName: "Gregory Golonka Portfolio",
+    images: [
+      {
+        url: "/Logo.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
