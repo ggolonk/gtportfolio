@@ -32,7 +32,7 @@ export default function uresearch() {
 
                             <br></br>
                             <div className="projects-button">
-                                <PButton pdfUrl="/Fall-final-report.pdf"
+                                <PButton pdfUrl="/GG-Research.pdf"
                                      title= "Fall Report"></PButton>
                                 <PButton pdfUrl="/Golonka_Research_Paper_Spring.pdf"
                                      title= "Spring Report"></PButton>
