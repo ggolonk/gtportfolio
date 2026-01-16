@@ -78,7 +78,7 @@ export default function About() {
         <hr className="about-line" />
         <div className="about-parent">
           <div className="about-child">
-            <Image src={"/Emerald.png"} width={500} height={200} />
+            <Image src={"/lake.png"} width={500} height={200} />
 
           </div>
           <div className="about-child">
@@ -118,7 +118,7 @@ export default function About() {
           <Image src={"/Grace.jpg"} 
               width={120}
               height={120} className="gallery-photo" />
-          <Image src={"/lake.png"} 
+          <Image src={"/Emerald.png"} 
               width={120}
               height={120} className="gallery-photo" />
           <Image src={"/hike1.jpeg"} 
