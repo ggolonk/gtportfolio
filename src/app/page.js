@@ -44,11 +44,10 @@ export default function Home() {
 
                     </div>
                     <div className="home-header-child">
-                        <p>I’m Gregory Golonka, a recent graduate in aerospace engineering
-                             from the University of Notre Dame. I enjoy tackling challenging problems 
-                             in aerodynamics, fluid mechanics and mechanical design, with an academic background that includes hands-on projects and
-                              computational research. I’m eager to apply my skills and curiosity to projects 
-                              that push the boundaries of aerospace technology.</p>
+                        <p>I’m Gregory Golonka, a recent aerospace engineering graduate from the University of Notre Dame with a strong
+                         interest in solving complex, real-world engineering problems. My background includes mechanical design, fluid mechanics, 
+                         and computational analysis through hands-on projects and research. I’m motivated to apply these skills in multidisciplinary
+                          engineering environments where thoughtful design and problem-solving matter.</p>
 
 
                         <div className="h-h-child">
