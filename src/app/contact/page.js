@@ -24,7 +24,7 @@ export default function Contact() {
           </div>
           <div className="contact-child">
             <div className="contact-button">
-              <a href="https://www.linkedin.com/in/ggolonka/" target="_blank" rel="noopener noreferrer" className="linkedin-button">
+              <a href="https://www.linkedin.com/in/gregorygolonka/" target="_blank" rel="noopener noreferrer" className="linkedin-button">
                 <img src="linkedin.png" className="linkedin-pic"></img>
               </a>
               <p>Linkedin</p>
