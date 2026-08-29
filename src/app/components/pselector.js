@@ -21,6 +21,8 @@ export default function PSelector() {
     { href: "/projects/experimentalaerodynamics", label: "Experimental Aerodynamics" },
     { href: "/projects/gasturbines", label: "Gas Turbines & Propulsion" },
     { href: "/projects/designtools", label: "Design Tools" },
+    { href: "/projects/stocktool", label: "Stonks" },
+
   ];
 
   return (
