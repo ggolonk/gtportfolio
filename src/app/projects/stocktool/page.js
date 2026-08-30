@@ -15,7 +15,7 @@ import {
 import "./stocktool.css";
 
 // Point this at your deployed FastAPI backend (e.g. https://stocktool-api.onrender.com)
-const API_BASE = process.env.NEXT_PUBLIC_STOCK_API_URL || "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_STOCK_API_URL || "https://stock-tool-tctq.onrender.com";
 
 const PERIOD_OPTIONS = [
   { label: "1M", value: "1mo" },

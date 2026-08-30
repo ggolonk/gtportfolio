@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import "./screener.css";
 
-const API_BASE = process.env.NEXT_PUBLIC_STOCK_API_URL || "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_STOCK_API_URL || "https://stock-tool-tctq.onrender.com";
 
 // Pulled directly from EquityQuery.valid_values on the backend (Yahoo
 // validates against these exact strings, including the em dash "—" - not
